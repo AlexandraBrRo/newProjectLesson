@@ -4,5 +4,19 @@
 '_footer';
 
 
-
+.hero_block{
+   position: relative;
+}
+.description{
+   position: absolute;
+   left: 274px;
+   top: 723px;
+   
+   >h1{
+      color: #fff;
+   }
+   >h4{
+      color: #fff;
+   }
+}
 

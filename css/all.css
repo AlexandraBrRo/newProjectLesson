@@ -45,7 +45,21 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.header {
+  width: 100%;
+  min-height: 233px;
+}
+
 .panel_header {
+  padding-top: 42px;
   display: block;
 }
 
@@ -56,32 +70,120 @@ h1, h2, h3, h4, h5, h6, p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 42px;
-  margin: 0, auto;
-}
-
-.item_panel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
-.item_panel .item_list {
+
+.item_list {
   gap: 64px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
   color: #000;
 }
 
 .menu_list {
+  min-width: 312px;
+  display: block;
+  padding-right: 96px;
+  text-align: left;
+}
+.menu_list .part_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding-top: 73px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.part_input > svg {
+  position: absolute;
+  z-index: 2;
+  left: 1267px;
+  top: 183px;
+}
+.part_input .inp_header {
+  position: relative;
+  left: -13px;
+  top: -6px;
+  padding-left: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #9D9D9D;
+  background: #F5F5F5;
+  border-radius: 2px;
+  border-color: #F5F5F5;
+  border-style: none;
+}
+
+.icons_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 17px;
+}
+
+.head_container {
+  background: #F0F0F0;
+  max-height: 39px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.logo_part {
+  gap: 9px;
+}
+
+.btn {
+  display: block;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+}
+.btn:hover {
+  background: #000;
+}
+.btn:hover svg {
+  fill: #fff;
+}
+
+.link_part {
+  padding-left: 383px;
+}
+
+.hero_block {
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  left: 274px;
+  top: 723px;
+}
+.description > h1 {
+  color: #fff;
+}
+.description > h4 {
+  color: #fff;
 }/*# sourceMappingURL=all.css.map */
