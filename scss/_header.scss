@@ -1,0 +1,25 @@
+.panel_header{
+   display: block;
+ }
+ .logo_header{
+   display: flex;
+   justify-content: center;
+   padding-top: 42px;
+   margin: 0, auto;
+ }
+ .item_panel{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   .item_list{
+     gap: 64px;
+     color: #000;
+   }
+ }
+   
+ .menu_list{
+   display: flex;
+   justify-content: flex-end;
+   padding-top: 73px;
+ }
