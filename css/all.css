@@ -223,6 +223,12 @@ a {
   -webkit-box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.btn_botton:hover {
+  background: #000;
+}
+.btn_botton:hover .btn {
+  color: #fff;
+}
 
 .post_catalog {
   padding-bottom: 241px;
@@ -249,13 +255,8 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-.holder_btn .text_part h3 {
-  font-size: 35px;
-  line-height: 62px;
-  padding-bottom: 33px;
-}
 .holder_btn .text_part h4 {
-  max-width: 652px;
+  max-width: 682px;
   text-align: center;
 }
 .holder_btn .btn_block {
@@ -272,4 +273,103 @@ a {
   text-align: center;
   font-size: 16px;
   line-height: 20px;
+}
+
+h3 {
+  font-size: 35px;
+  line-height: 62px;
+  padding-bottom: 33px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.product {
+  padding-top: 162px;
+}
+.product .product_text {
+  text-align: center;
+  padding-bottom: 105px;
+}
+
+.item_grup {
+  padding-bottom: 46px;
+}
+
+.list_grup {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 120px;
+}
+
+.magasin {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 118px;
+}
+.magasin .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 22%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
+}
+.magasin img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.price {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 25px;
+  gap: 20px;
+}
+
+.btn_botton {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.choice_block {
+  padding-top: 152px;
+  padding-bottom: 155px;
+}
+
+.shop_img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.txt_img {
+  position: absolute;
+  left: 639px;
+  bottom: 373px;
+  z-index: 5;
+}
+
+.shop_btn {
+  position: absolute;
+  left: 639px;
+  bottom: 72px;
+  z-index: 5;
 }/*# sourceMappingURL=all.css.map */
