@@ -2,16 +2,16 @@
    width: 100%;
    min-height: 233px;
 }
-.panel_header{
+.panel-header{
    padding-top: 42px;
    display: block;
  }
- .logo_header{
+ .logo-header{
    display: flex;
    justify-content: center;
    align-items: center;
  }
-.item_list{
+.item-list{
    gap: 64px;
    align-items: center;
    justify-content: center;
@@ -25,7 +25,7 @@ a{
    color: #000;
 }
  
- .menu_list{
+ .menu-list{
    min-width: 312px;
    display: block;
    padding-right: 96px;
@@ -37,14 +37,14 @@ a{
       
    }
  }
- .part_input{
+.part-input{
    >svg{
       position: absolute;
       z-index: 2;
       left: 1267px;
       top: 183px;
    }
-   .inp_header{
+   .inp-header{
       position: relative;
       left: -13px;
       top: -6px;
@@ -59,12 +59,12 @@ a{
       border-color: #F5F5F5;
       border-style: none;
    }
- }
- .icons_list{
+}
+ .icons-list{
    display: flex;
    gap: 17px;
  }
- .head_container{
+ .head-container{
    background: #F0F0F0;
    max-height: 39px;
    width: 100%;
@@ -72,7 +72,7 @@ a{
    padding-bottom: 10px;
    text-align: center; 
  }
- .logo_part{
+ .logo-part{
    gap: 9px;
  }
 .icons{
@@ -90,6 +90,6 @@ a{
    }  
 }
 
-.link_part{
+.link-part{
    padding-left: 383px;
 }
