@@ -49,6 +49,9 @@ a {
   text-decoration: none;
 }
 
+input {
+  border-style: none;
+}
 input:focus {
   outline: none;
 }
@@ -100,7 +103,7 @@ a {
   padding-right: 96px;
   text-align: left;
 }
-.menu-list .part_list {
+.menu-list .part-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,6 +173,15 @@ a {
 
 .link-part {
   padding-left: 383px;
+}
+
+.footer-item {
+  background: rgb(253, 237, 237);
+}
+
+.footer-bottom {
+  height: 84px;
+  background: rgb(247, 227, 221);
 }
 
 .hero-block {
@@ -353,9 +365,78 @@ h4 {
   padding-bottom: 155px;
 }
 
-.shop-img {
+.shop-kids .shop-img {
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
   overflow: hidden;
+}
+.shop-kids .txt-img {
+  position: absolute;
+  bottom: 1679px;
+  left: 565px;
+  z-index: 5;
+}
+.shop-kids .shop-btn {
+  position: absolute;
+  bottom: 1457px;
+  left: 594px;
+  z-index: 5;
+}
+
+.shop-sale .shop-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+.shop-sale .txt-img {
+  position: absolute;
+  bottom: 1615px;
+  left: 1017px;
+  z-index: 5;
+}
+.shop-sale .shop-btn {
+  position: absolute;
+  bottom: 1457px;
+  left: 1009px;
+  z-index: 5;
+}
+
+.shop-men .shop-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+.shop-men .txt-img {
+  position: absolute;
+  bottom: 1157px;
+  left: 693px;
+  z-index: 5;
+}
+.shop-men .shop-btn {
+  position: absolute;
+  bottom: 933px;
+  left: 705px;
+  z-index: 5;
+}
+
+.shop-accessories .shop-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+.shop-accessories .txt-img {
+  position: absolute;
+  bottom: 596px;
+  left: 653px;
+  z-index: 5;
+}
+.shop-accessories .shop-btn {
+  position: absolute;
+  bottom: 308px;
+  left: 653px;
+  z-index: 5;
 }/*# sourceMappingURL=all.css.map */

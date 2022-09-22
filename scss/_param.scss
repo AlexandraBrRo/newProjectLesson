@@ -33,6 +33,7 @@ a{
   text-decoration: none;
 }
 input{
+  border-style: none;
   &:focus{
     outline: none;
   }

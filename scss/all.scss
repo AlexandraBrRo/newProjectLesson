@@ -59,6 +59,7 @@
 .post-catalog{
    padding-bottom: 241px;
 }
+
 .holder-btn{
    background: #ffd3d3;
    max-height: 592px;
@@ -143,13 +144,82 @@ h4{
    padding-top: 152px;
    padding-bottom: 155px;
 }
-.shop-img{
-   object-fit: cover;
-   position: relative;
-   overflow: hidden;
+.shop-kids{
+   .shop-img{
+      object-fit: cover;
+      position: relative;
+      overflow: hidden;
+   }
+   .txt-img{
+      position: absolute;
+      bottom: 1679px;
+      left: 565px;
+      z-index: 5;
+   }
+   .shop-btn{
+      position: absolute;
+      bottom: 1457px;
+      left: 594px;
+      z-index: 5;
+   }
 }
-
-
+.shop-sale{
+   .shop-img{
+      object-fit: cover;
+      position: relative;
+      overflow: hidden;
+   }
+   .txt-img{
+      position: absolute;
+      bottom: 1615px;
+      left: 1017px;
+      z-index: 5;
+   }
+   .shop-btn{
+      position: absolute;
+      bottom: 1457px;
+      left: 1009px;
+      z-index: 5;
+   }
+}
+.shop-men{
+   .shop-img{
+      object-fit: cover;
+      position: relative;
+      overflow: hidden;
+   }
+   .txt-img{
+      position: absolute;
+      bottom: 1157px;
+      left: 693px;
+      z-index: 5;
+   }
+   .shop-btn{
+      position: absolute;
+      bottom: 933px;
+      left: 705px;
+      z-index: 5;
+   }
+}
+.shop-accessories{
+   .shop-img{
+      object-fit: cover;
+      position: relative;
+      overflow: hidden;
+   }
+   .txt-img{
+      position: absolute;
+      bottom: 596px;
+      left: 653px;
+      z-index: 5;
+   }
+   .shop-btn{
+      position: absolute;
+      bottom: 308px;
+      left: 653px;
+      z-index: 5;
+   }
+}
 
 
 //lesson slider
