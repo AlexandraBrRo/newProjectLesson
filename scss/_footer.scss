@@ -1,9 +1,67 @@
 .footer-item{
    background: rgb(253, 237, 237);
-}
 
+}
+.footer-block{
+   justify-content: space-evenly;
+   align-items: flex-start;
+   padding-top: 108px;
+   padding-bottom: 174px;
+}
 
 .footer-bottom{
    height: 84px;
    background: rgb(247, 227, 221);
+}
+.mail-part{
+   input{
+      min-width: 339px;
+      height: 57px;      
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 38px;
+      color: #979797;
+      padding-left: 22px;
+   }
+}
+.txt-part{
+   padding-bottom: 34px;
+   font-family: 'Lexend';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 38px;
+}
+.footer-btn{
+   background: #150808;
+   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 193px;
+   height: 58px;
+   span{
+      color:#fff;
+   }
+   &:hover{
+      background: #fff;
+      border:1px solid #000;
+      span{
+         color:#000;
+      }
+   }
+}
+.info_column{
+   li{
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 38px;
+      h4{
+         padding-bottom: 30px;
+      }
+   }
 }

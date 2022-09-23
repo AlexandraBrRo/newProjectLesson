@@ -58,8 +58,81 @@
 }
 .post-catalog{
    padding-bottom: 241px;
+   align-items: center;
+   justify-content: center;
 }
-
+.post-home{
+   .picture-box{
+      position: relative;
+   }
+   .btn-botton{
+      position: absolute;
+      top: 1567px;
+      left: 310px;
+      z-index: 5;
+   }
+}
+.post-bags{
+   .picture-box{
+      position: relative;
+   }
+   .btn-botton{
+      position: absolute;
+      top: 1873px;
+      left: 310px;
+      z-index: 5;
+   }
+}
+.post-women{
+   .picture-box{
+      position: relative;
+   }
+   .btn-botton{
+      position: absolute;
+      top: 1854px;
+      left: 762px;
+      z-index: 5;
+   }
+}
+.post-accessories{
+   .picture-box{
+      position: relative;
+   }
+   .btn-botton{
+      position: absolute;
+      top: 1564px;
+      right: 313px;
+      z-index: 5;
+   }
+}
+.post-shoes{
+   .picture-box{
+      position: relative;
+   }
+   .btn-botton{
+      position: absolute;
+      top: 1873px;
+      right: 311px;
+      z-index: 5;
+   }
+}
+.post-befor{
+   padding-right: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.post-after{
+   padding-left: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.post-catalog{
+   .btn-botton{
+      width: 179px;
+   }
+}
 .holder-btn{
    background: #ffd3d3;
    max-height: 592px;
@@ -136,13 +209,27 @@ h4{
    padding-top: 25px;
    gap: 20px;
 }
-.btn-botton{
-   // align-items: center;
-   justify-content: center;
+.btn-center{
+   margin: 0 auto;
+   display: block;
+   background: #000;
+   span{
+      color:#fff;
+   }
+   &:hover{
+      background: #fff;
+      span{
+         color:#000;
+      }
+   }
+
 }
 .choice-block{
    padding-top: 152px;
    padding-bottom: 155px;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
 }
 .shop-kids{
    .shop-img{
@@ -151,16 +238,29 @@ h4{
       overflow: hidden;
    }
    .txt-img{
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 52px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: #000000;
       position: absolute;
-      bottom: 1679px;
-      left: 565px;
+      width: 515px;
+      height: 99px;
+      left: 399px;
+      top: 4142px;
       z-index: 5;
    }
    .shop-btn{
       position: absolute;
-      bottom: 1457px;
-      left: 594px;
+      width: 179px;
+      height: 54px;
+      left: 551px;
+      top: 4261px;
       z-index: 5;
+      
    }
 }
 .shop-sale{
@@ -171,14 +271,25 @@ h4{
    }
    .txt-img{
       position: absolute;
-      bottom: 1615px;
-      left: 1017px;
+      width: 187px;
+      height: 97px;
+      left: 1111px;
+      top: 4095px;
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 52px;
+      text-align: center;
+      text-decoration-line: underline;
       z-index: 5;
    }
    .shop-btn{
       position: absolute;
-      bottom: 1457px;
-      left: 1009px;
+      width: 179px;
+      height: 54px;
+      left: 1117px;
+      top: 4261px;
       z-index: 5;
    }
 }
@@ -190,14 +301,26 @@ h4{
    }
    .txt-img{
       position: absolute;
-      bottom: 1157px;
-      left: 693px;
+      width: 712px;
+      height: 56px;
+      left: 471px;
+      top: 4605px;      
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 52px;
+      text-align: center;
+      text-decoration-line: underline;     
+      color: #FEFEFE;
       z-index: 5;
    }
    .shop-btn{
       position: absolute;
-      bottom: 933px;
-      left: 705px;
+      width: 179px;
+      height: 54px;
+      left: 737px;
+      top: 4795px;
       z-index: 5;
    }
 }
@@ -209,14 +332,26 @@ h4{
    }
    .txt-img{
       position: absolute;
-      bottom: 596px;
-      left: 653px;
+      width: 712px;
+      height: 56px;
+      left: 477px;
+      top: 5156px;      
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 52px;
+      text-align: center;
+      text-decoration-line: underline;      
+      color: #FEFEFE;
       z-index: 5;
    }
    .shop-btn{
       position: absolute;
-      bottom: 308px;
-      left: 653px;
+      width: 179px;
+      height: 54px;
+      left: 745px;
+      top: 5338px;
       z-index: 5;
    }
 }

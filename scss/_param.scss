@@ -3,13 +3,18 @@
 }
 body{
   margin: 0;
-  font:16px/1.25 Arial,serif;
+  font:16px/1.25 Avenir,serif;
   position: relative;
 }
 .wrapper{
   display: flex;
   flex-direction: column;
   min-height: 100vp;
+  @media screen and (max-width: 390px){
+    max-width: 100%;
+    flex: 0, 0, 100%;
+
+  }
 }
 .centered{
   max-width: 1340px;
