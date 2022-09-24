@@ -12,17 +12,35 @@
    object-fit: cover;
    position: relative;
    overflow: hidden;
+   @media screen and (max-width: 390px){
+      .bg{
+         display: none;
+      }
+   }
 }
 .description{
    position: absolute;
    left: 360px;
    top: 594px;
+   @media screen and (max-width: 390px){
+      width: 288px;
+      height: 77px;
+      left: 51px;
+      top: 414px;
+   }
    >h1{
       color: #fff;
       font-weight: 600;
       font-size: 80px;
       line-height: 100px;
       padding-bottom: 64px;
+      @media screen and (max-width: 390px){
+         font-family: 'Lexend';
+         font-style: normal;
+         font-size: 30px;
+         line-height: 38px;
+         text-align: center;
+      }
    }
    >h4{
       max-width: 845px;
@@ -32,6 +50,9 @@
       line-height: 25px;
       text-align: center;
       padding-left: 139px;
+      @media screen and (max-width: 390px){
+         display: none;
+      }
    }
 }
 .title-item{
@@ -41,6 +62,15 @@
    line-height: 62px;
    text-align: center;
    max-width: 749px;
+   @media screen and (max-width: 390px){
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 38px;
+      padding-top: 34px;
+      padding-bottom: 26px;
+   }
 }
 .btn-botton{
    padding: 17px 0;
@@ -62,6 +92,17 @@
    justify-content: center;
 }
 .post-home{
+   @media screen and (max-width: 390px){
+      img{
+         width: 300px;
+         height: 367px;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         object-fit: cover;
+         overflow: hidden;
+      }
+   }
    .picture-box{
       position: relative;
    }
@@ -70,9 +111,24 @@
       top: 1567px;
       left: 310px;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         top: 1049px;
+         left: 103px;
+      }
    }
 }
 .post-bags{
+   @media screen and (max-width: 390px){
+      img{
+         width: 300px;
+         height: 367px;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         object-fit: cover;
+         overflow: hidden;
+      }
+   }
    .picture-box{
       position: relative;
    }
@@ -81,9 +137,24 @@
       top: 1873px;
       left: 310px;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         top: 1448px;
+         left: 112px;
+      }
    }
 }
 .post-women{
+   @media screen and (max-width: 390px){
+      img{
+         width: 300px;
+         height: 367px;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         object-fit: cover;
+         overflow: hidden;
+      }
+   }
    .picture-box{
       position: relative;
    }
@@ -92,9 +163,24 @@
       top: 1854px;
       left: 762px;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         top: 1849px;
+         left: 104px;
+      }
    }
 }
 .post-accessories{
+   @media screen and (max-width: 390px){
+      img{
+         width: 300px;
+         height: 367px;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         object-fit: cover;
+         overflow: hidden;
+      }
+   }
    .picture-box{
       position: relative;
    }
@@ -103,9 +189,24 @@
       top: 1564px;
       right: 313px;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         top: 2257px;
+         left: 108px;
+      }
    }
 }
 .post-shoes{
+   @media screen and (max-width: 390px){
+      img{
+         width: 300px;
+         height: 367px;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         object-fit: cover;
+         overflow: hidden;
+      }
+   }
    .picture-box{
       position: relative;
    }
@@ -114,6 +215,10 @@
       top: 1873px;
       right: 311px;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         top: 2657px;
+         left: 107px;
+      }
    }
 }
 .post-befor{
@@ -121,14 +226,25 @@
    display: flex;
    flex-direction: column;
    gap: 30px;
+   @media screen and (max-width: 390px){
+      padding: 0;
+      padding-bottom: 30px;
+   }
 }
 .post-after{
    padding-left: 30px;
    display: flex;
    flex-direction: column;
    gap: 30px;
+   @media screen and (max-width: 390px){
+      padding: 0;
+      padding-top: 30px;
+   }
 }
 .post-catalog{
+   @media screen and (max-width: 390px){
+      padding-bottom: 118px;
+   }
    .btn-botton{
       width: 179px;
    }
@@ -136,6 +252,9 @@
 .holder-btn{
    background: #ffd3d3;
    max-height: 592px;
+   @media screen and (max-width: 390px){
+      max-height: 800px;
+   }
    .text-part{
       display: flex;
       flex-direction: column;
@@ -147,20 +266,48 @@
          max-width: 682px;
          text-align: center;
       }
+      @media screen and (max-width: 390px){
+         padding-top: 93px;
+         h3{
+            font-family: "Lexend";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 48px;
+            line-height: 54px;
+            text-align: center;
+         }
+         h4{
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 24px;
+            text-align: center;
+         }
+      }
    }
    .btn-block{
       gap: 39px;  
       justify-content: center;
       padding-bottom: 158px;
-      .btn{
+      span{
          display: block;
-         // padding-left: 10px;
-         padding-right: 133px;
-         width: 326px;
+         width: 182px;
          text-align: center;
          font-size: 16px;
-         line-height: 20px; 
-         
+         line-height: 20px;
+         @media screen and (max-width: 390px){
+            width: 306px;
+         }
+      }
+   }
+   .btn-botton{
+      @media screen and (max-width: 390px){
+         max-width: 326px;
+         max-height: 86px;
+      }
+      .btn{    
+         padding: 0;
       }
    }
 }
@@ -175,17 +322,60 @@ h4{
 }
 .product{
    padding-top: 162px;
+   @media screen and (max-width: 390px){
+      padding-top: 103px;
+   }
    .product-text{
       text-align: center;
       padding-bottom: 105px;
+      h3{
+         font-family: 'Lexend';
+         font-style: normal;
+         font-weight: 500;
+         font-size: 50px;
+         line-height: 62px;
+         text-align: center;
+      }
+      h4{
+         font-family: 'Lexend';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 22px;
+         text-align: center;
+         color: #5E5E5E;
+      }
+      @media screen and (max-width: 390px){
+         h3{
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 50px;
+            text-align: center;
+         }
+         h4{
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+            color: #5E5E5E;
+         }
+      }
    }
 }
 .item-grup{
    padding-bottom: 46px;
+
 }
 .list-grup{
    justify-content: center;
    gap: 120px;
+   @media screen and (max-width: 390px){
+      gap: 20px;
+   }
 }
 .magasin{
    flex-direction: row;
@@ -222,7 +412,6 @@ h4{
          color:#000;
       }
    }
-
 }
 .choice-block{
    padding-top: 152px;
@@ -230,12 +419,23 @@ h4{
    align-items: center;
    justify-content: center;
    gap: 30px;
+   @media screen and (max-width: 390px){
+      padding-top: 52px;
+   }
 }
 .shop-kids{
    .shop-img{
       object-fit: cover;
       position: relative;
       overflow: hidden;
+      @media screen and (max-width: 390px){         
+            width: 347px;
+            height: 322px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            object-fit: cover;
+      }
    }
    .txt-img{
       font-family: 'Lexend';
@@ -252,6 +452,17 @@ h4{
       left: 399px;
       top: 4142px;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         width: 401px;
+         height: 133px;
+         left: -6px;
+         top: 4834px;
+         font-family: 'Lexend';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 28px;
+         line-height: 35px;
+      }
    }
    .shop-btn{
       position: absolute;
@@ -260,7 +471,18 @@ h4{
       left: 551px;
       top: 4261px;
       z-index: 5;
-      
+      @media screen and (max-width: 390px){
+         position: absolute;
+         left: 103px;
+         top: 4981px;
+         font-family: 'Lexend';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 19px;
+         line-height: 24px;
+         text-align: center;
+         text-decoration-line: underline;
+      }
    }
 }
 .shop-sale{
@@ -283,6 +505,12 @@ h4{
       text-align: center;
       text-decoration-line: underline;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         width: 187px;
+         height: 97px;
+         left: 100px;
+         top: 5153px;
+      }
    }
    .shop-btn{
       position: absolute;
@@ -291,6 +519,18 @@ h4{
       left: 1117px;
       top: 4261px;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         position: absolute;
+         left: 103px;
+         top: 5356px;
+         font-family: 'Lexend';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 19px;
+         line-height: 24px;
+         text-align: center;
+         text-decoration-line: underline;
+      }
    }
 }
 .shop-men{
@@ -298,6 +538,14 @@ h4{
       object-fit: cover;
       position: relative;
       overflow: hidden;
+      @media screen and (max-width: 390px){         
+         width: 347px;
+         height: 322px;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         object-fit: cover;
+      }
    }
    .txt-img{
       position: absolute;
@@ -314,6 +562,14 @@ h4{
       text-decoration-line: underline;     
       color: #FEFEFE;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         width: 319px;
+         height: 56px;
+         left: 41px;
+         top: 5601px;
+         font-size: 36px;
+         line-height: 45px;
+      }
    }
    .shop-btn{
       position: absolute;
@@ -322,6 +578,18 @@ h4{
       left: 737px;
       top: 4795px;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         position: absolute;
+         left: 103px;
+         top: 5725px;
+         font-family: 'Lexend';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 19px;
+         line-height: 24px;
+         text-align: center;
+         text-decoration-line: underline;
+      }
    }
 }
 .shop-accessories{
@@ -329,6 +597,14 @@ h4{
       object-fit: cover;
       position: relative;
       overflow: hidden;
+      @media screen and (max-width: 390px){         
+         width: 347px;
+         height: 322px;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         object-fit: cover;
+   }
    }
    .txt-img{
       position: absolute;
@@ -345,6 +621,14 @@ h4{
       text-decoration-line: underline;      
       color: #FEFEFE;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         width: 315px;
+         height: 118px;
+         left: 38px;
+         top: 5936px;
+         font-size: 44px;
+         line-height: 45px;
+      }
    }
    .shop-btn{
       position: absolute;
@@ -353,9 +637,106 @@ h4{
       left: 745px;
       top: 5338px;
       z-index: 5;
+      @media screen and (max-width: 390px){
+         position: absolute;
+         left: 103px;
+         top: 6073px;
+         font-family: 'Lexend';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 19px;
+         line-height: 24px;
+         text-align: center;
+         text-decoration-line: underline;
+      }
    }
 }
+//
+@media screen and (min-width: 425px){
+   .bg-mob, .slideshow-container{
+      display: none;
+   }
 
+}
+@media screen and (max-width: 390px){
+   .magasin{
+      display: none;
+   }
+   .btn-center{
+      margin-top: 20px;
+   }
+   .slideshow-container{
+      max-width: 100%;
+      pointer-events: revert;
+   }
+   .mySlides{
+      display: none;
+   }
+   .prev, .next{
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: 700px;
+      padding: 16px;
+      color: #5E5E5E;
+      font-weight: 900;
+      font-style: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      &:hover{
+         background-color:rgba(255, 214, 214, 0.919)
+      }
+   }
+   .next{
+      right: 0;
+      border-radius: 3px 0 0 3px;
+   }
+   .text-slides{
+      color: #000;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 4513px;
+      // width: 100%;
+      text-align: center;
+   }
+   .numbertext{
+      color: #000;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+   }
+   .dot{
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background: #bbb;
+      border: radius 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+   }
+   .active{
+      .dot{
+         &:hover{
+           background: #717171; 
+         }
+      }
+   }
+   .fade{
+      animation-name: fade;
+   }
+   @keyframes fade {
+         from {opacity: .4}
+         to {opacity: 1}
+      }
+}
+
+
+//
 
 //lesson slider
 

@@ -67,6 +67,12 @@ align-items: center;
  }
  .logo-part{
    gap: 9px;
+   @media screen and (max-width: 390px){
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 17px;
+   }  
  }
 .icons{
    display: block;
@@ -78,15 +84,21 @@ align-items: center;
    &:hover{
       background: #000;
       color:#fff;
-   }   
+   } 
 }
 
 .link-part{
    padding-right: 288 px;
+   @media screen and (max-width: 390px){
+      width: 100%;
+      flex: 0 0 100%;
+      display: flex;
+   }
    a{
       position: absolute;
       @media screen and (max-width: 390px){
          color: #fff;
+         width: 100%;
       }
    }
    ::before{
@@ -99,9 +111,47 @@ align-items: center;
       }
    }
 }
+@media screen and (min-width: 425px){
+   .header-mobile{
+      display: none;
+   }
+}
 //
 .header-block{
    @media screen and (max-width: 390px){
       display: none;
+   }
+}
+@media screen and (max-width: 390px){
+   .header-mob{
+      justify-content: space-around;
+   }
+   .line-menu{
+      gap: 8px;
+      flex-direction: column;
+      padding-top: 22px;
+      padding-bottom: 27px;
+      .line{
+         width: 22px;
+         height: 2px;
+         border: 1px solid #000;
+         color: #000;
+      }
+      .line-long{
+         width: 30px;
+         height: 2px;
+         border: 1px solid #000;
+         color: #000;
+      }
+   }
+   .icons-mobile{
+      padding-top: 22px;
+      gap: 24px;
+   }
+   .logo-header{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 17px;
    }
 }
